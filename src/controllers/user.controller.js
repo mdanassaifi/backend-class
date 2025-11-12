@@ -2,7 +2,7 @@ import asyncHandler from 'express-async-handler';
 
 
 const registerUser = asyncHandler(async (req, res) => {
-    res.status(201).json({ message: 'User registered successfully' });
+    res.status(200).json({ message: 'User registered successfully' });
 
 
 })
